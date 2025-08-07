@@ -1,3 +1,4 @@
+
 package calculator;
 import java.util.*;
 public class calculator{
@@ -11,4 +12,8 @@ public class calculator{
     public static int subtraction(int n,int m){
         return (n-m);
     }
+  public static int addition(int a, int b){
+        return a+b;
+    }
 }
+
