@@ -1,9 +1,19 @@
 
-public class calculator {
+package calculator;
+import java.util.*;
+public class calculator{
     public static void main(String[] args) {
-      int res =  addition(n,m);
-}
-    public static int addition(int a, int b){
+        Scanner sc= new Scanner(System.in);
+        int n=sc.nextInt();
+        int m=sc.nextInt();
+        int addition = addition(n,m);
+        int subtraction = subtraction(n, m);
+    }
+    public static int subtraction(int n,int m){
+        return (n-m);
+    }
+  public static int addition(int a, int b){
         return a+b;
     }
 }
+
